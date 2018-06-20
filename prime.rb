@@ -1,18 +1,8 @@
 # Add  code here!
 def prime?(number)
-      if number >= 2
+      if number > 1
             array = (2..number-1).to_a
-            array.all? { |e|  number % e == 0} ? true : false
-
-
-
-
-            # i = 2
-            # array = []
-            # while i < number-1 do
-            #       array << false if number % i == 0
-            #       i += 1
-            # end
+            array.all? { |e|  number % e == 0} ? false : true
       else
             false
       end

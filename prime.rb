@@ -7,3 +7,7 @@ def prime?(number)
             false
       end
 end
+
+prime(2)
+prime(3)
+prime(4)

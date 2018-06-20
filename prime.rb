@@ -2,7 +2,7 @@
 def prime?(number)
       if number >= 2
             for i in 2..number-1 do
-                  number % i == 0 ? true : false
+                  number % i == 0 ? false : true
             end
       else
             false

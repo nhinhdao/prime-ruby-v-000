@@ -2,7 +2,7 @@
 def prime?(number)
       if number > 1
             array = (2..number-1).to_a
-            array.all? { |e|  number % e == 0} ? false : true
+            array.all? { |e|  number % e != 0} ? false : true
       else
             false
       end

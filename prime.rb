@@ -8,6 +8,6 @@ def prime?(number)
       end
 end
 
-prime(2)
-prime(3)
-prime(4)
+puts prime(2)
+puts prime(3)
+puts prime(4)
